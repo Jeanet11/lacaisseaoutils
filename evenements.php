@@ -1,7 +1,6 @@
 <?php
 $navbar = '<li><a href="index.php">Accueil</a></li>
-            <li><a href="annonceurs.php">Annonceurs</a></li>
-            <li  class="active"><a href="#">Evevenements</a></li>';
+            ';
 $body = '
 <div class="row" style="margin-top:20px;">
   <div class="form-group col-md-4">
@@ -49,5 +48,10 @@ $body = '
     </div>
   </div>
 </div>
+
+<div><iframe width="100%" height="450px" frameBorder="0" src="https://umap.openstreetmap.fr/fr/map/map-de-la-haute-vallee-de-laude_170436?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/map-de-la-haute-vallee-de-laude_170436">Voir en plein écran</a></p></div>
+
+<p><a href="event_detail.php"</a>Hackathon de l</p>
+
   ';
 include('layout.php');
